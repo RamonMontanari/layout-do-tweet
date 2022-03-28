@@ -43,12 +43,20 @@ body {
   margin: 17px 12px 5px;
 }
 
+h1 {
+  Width: 31px;
+  Height: 18px;
+  margin-right: 3px;
+}
+
 .verify {
   width: 15px;
   height: 15px;
+  margin-right: 9px;
 }
 
 .dot {
+  margin: 7px 4px 11px;
   width: 3px;
   height: 3px;
 
