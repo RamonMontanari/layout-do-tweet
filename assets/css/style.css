@@ -43,9 +43,9 @@ body {
 }
 
 h1 {
-  Width: 31px;
-  Height: 18px;
-  margin-right: 3px;
+  width: 31px;
+  height: 18px;
+  margin-right: 5px;
 }
 
 .verify {
@@ -55,7 +55,7 @@ h1 {
 }
 
 .dot {
-  margin: 7px 4px 11px;
+  margin: 8px 4px 11px;
   width: 3px;
   height: 3px;
 
@@ -75,13 +75,12 @@ h1 {
 
 .main p {
   font-size: 15px;
-
 }
 
-.main p + p {/* estilizo o "p" que vem depois do "p" dentro da main*/
+.main p + p {
+  /* estilizo o "p" que vem depois do "p" dentro da main*/
   margin-top: 18px;
 }
-
 
 .footer {
   margin-top: 16px;
@@ -90,34 +89,66 @@ h1 {
 }
 
 .box {
-  display: inline;  
+  display: flex;
+  align-items: center;
 }
 
 small {
   margin-right: 73px;
+  font-size: 13px;
+  line-height: 15px;
+  white-space: nowrap;
 }
 
-.comment{
-  Width: 15px;
-  Height: 13.49px;
+.comment {
+  width: 15px;
+  height: 13.49px;
   margin-right: 17px;
 }
 
 .retwettar {
-  Width: 15px;
-  Height: 15px;
+  width: 15px;
+  height: 15px;
   margin-right: 18px;
 }
 
 .favorite {
-  Width: 15px;
-  Height: 13.08px;
+  width: 15px;
+  height: 13.08px;
   margin-right: 21px;
 }
 
 .share {
-  Width: 13px;
-  Height: 14.44px;
-  margin-left: 73px;
+  width: 13px;
+  height: 14.44px;
   margin-right: 98px;
+}
+
+@media (max-width: 768px) {
+  .container-tweet {
+    width: 90%;
+    margin: 0 5%;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .main {
+    height: auto;
+    max-width: 75%;
+    width: unset;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  small {
+    margin-right: 20px;
+  }
+
+  .footer {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: -40px;
+  }
 }
