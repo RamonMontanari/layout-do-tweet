@@ -30,6 +30,24 @@ body {
   border: 1px solid var(--border);
 }
 
+.image {
+  width: 48px;
+  height: 48px;
+  margin-top: 17px;
+  margin-left: 17px;
+}
+
+.header {
+  display: flex;
+
+  margin: 17px 12px 5px;
+}
+
+.verify {
+  width: 15px;
+  height: 15px;
+}
+
 .dot {
   width: 3px;
   height: 3px;
@@ -41,12 +59,25 @@ body {
   border-radius: 50%;
 }
 
-.main p {
-  font-size: 25px;
-  font-weight: bold;
+.main {
+  margin-top: 5px;
+  margin-left: 12px;
+  width: 430px;
+  height: 72px;
 }
 
-.main p + p {
-  /* estilizo o p depois do p dentro da main*/
-  margin-top: 38px;
+.main p {
+  font-size: 15px;
+
+}
+
+.main p + p {/* estilizo o "p" que vem depois do "p" dentro da main*/
+  margin-top: 18px;
+}
+
+
+.footer {
+  margin: 16px 98px 19px 12px;
+  display: flex;
+  justify-content: space-between;
 }
