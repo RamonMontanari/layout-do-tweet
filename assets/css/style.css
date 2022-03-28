@@ -39,7 +39,6 @@ body {
 
 .header {
   display: flex;
-
   margin: 17px 12px 5px;
 }
 
@@ -87,5 +86,26 @@ h1 {
 .footer {
   margin: 16px 98px 19px 12px;
   display: flex;
-  justify-content: space-between;
+  
+}
+
+.comment{
+  margin-right: 17px;
+}
+
+.retwettar {
+  margin-right: 18px;
+}
+
+.favorite {
+  margin-right: 21px;
+}
+
+.share {
+  margin-left: 73px;
+  margin-right: 98px;
+}
+
+small {
+  margin-right: 73px;
 }
