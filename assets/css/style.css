@@ -84,28 +84,40 @@ h1 {
 
 
 .footer {
-  margin: 16px 98px 19px 12px;
+  margin-top: 16px;
+  margin-left: 12px;
   display: flex;
-  
 }
 
-.comment{
-  margin-right: 17px;
-}
-
-.retwettar {
-  margin-right: 18px;
-}
-
-.favorite {
-  margin-right: 21px;
-}
-
-.share {
-  margin-left: 73px;
-  margin-right: 98px;
+.box {
+  display: inline;  
 }
 
 small {
   margin-right: 73px;
+}
+
+.comment{
+  Width: 15px;
+  Height: 13.49px;
+  margin-right: 17px;
+}
+
+.retwettar {
+  Width: 15px;
+  Height: 15px;
+  margin-right: 18px;
+}
+
+.favorite {
+  Width: 15px;
+  Height: 13.08px;
+  margin-right: 21px;
+}
+
+.share {
+  Width: 13px;
+  Height: 14.44px;
+  margin-left: 73px;
+  margin-right: 98px;
 }
